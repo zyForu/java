@@ -9,5 +9,6 @@ public class Test {
         Thread thread = new Thread(hello::run);
         thread.start();
 
+
     }
 }

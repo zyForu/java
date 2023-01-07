@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a85d829b-afd4-4aa6-a364-add985094a7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrency-program/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrency-program/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_basic/_5_thread_communication/asynchronized_block/EventClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1_basic/_5_thread_communication/asynchronized_block/EventClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +50,13 @@
     <property name="project.structure.side.proportion" value="0.3862069" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.FightQueryExample">
-    <configuration name="FightQueryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_basic._3_thread_api.Fight.FightQueryExample" />
+  <component name="RunManager" selected="Application.ThreadPoolTest">
+    <configuration name="BooleanLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_basic._5_thread_communication.booleanlock.BooleanLockTest" />
       <module name="concurrency-program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_basic._3_thread_api.Fight.*" />
+          <option name="PATTERN" value="_1_basic._5_thread_communication.booleanlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,19 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="concurrency-program" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_basic._3_thread_api.TestApi" />
+    <configuration name="PreventDuplicated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_basic._7_hook_thread.PreventDuplicated" />
       <module name="concurrency-program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_basic._3_thread_api.Fight.*" />
+          <option name="PATTERN" value="_1_basic._7_hook_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_basic._2_thread_constructor.TestThreadConstructor" />
+    <configuration name="ThreadGroupTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_basic._6_thread_group.ThreadGroupTest" />
       <module name="concurrency-program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_basic._2_thread_constructor.*" />
+          <option name="PATTERN" value="_1_basic._6_thread_group.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ticketWindowRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_basic._1_thread_state.ticketWindow.ticketWindowRunnable" />
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_basic._8_thread_pool.ThreadPoolTest" />
       <module name="concurrency-program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_basic._1_thread_state.ticketWindow.*" />
+          <option name="PATTERN" value="_1_basic._8_thread_pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UncaughtExceptionHandlerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_basic._7_hook_thread.UncaughtExceptionHandlerTest" />
+      <module name="concurrency-program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_1_basic._7_hook_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FightQueryExample" />
-        <item itemvalue="Application.TestApi" />
-        <item itemvalue="Application.TestThreadConstructor" />
-        <item itemvalue="Application.ticketWindowRunnable" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ThreadPoolTest" />
+        <item itemvalue="Application.PreventDuplicated" />
+        <item itemvalue="Application.UncaughtExceptionHandlerTest" />
+        <item itemvalue="Application.ThreadGroupTest" />
+        <item itemvalue="Application.BooleanLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +157,7 @@
       <workItem from="1672829674229" duration="5246000" />
       <workItem from="1672914975882" duration="7742000" />
       <workItem from="1673001508786" duration="5607000" />
+      <workItem from="1673059404446" duration="25053000" />
     </task>
     <servers />
   </component>
@@ -156,54 +165,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1673007936072">
+    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1673080203623">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1673007936072" />
+    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1673080203623" />
     <state x="1157" y="402" width="426" height="596" key="#xdebugger.evaluate" timestamp="1672921417677">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1157" y="402" width="426" height="596" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1672921417677" />
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom" timestamp="1673009372934">
+    <state width="2517" height="45" key="GridCell.Tab.0.bottom" timestamp="1673086138982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1673009372934" />
-    <state width="2517" height="404" key="GridCell.Tab.0.center" timestamp="1673009372934">
+    <state width="2517" height="45" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138982" />
+    <state width="2517" height="45" key="GridCell.Tab.0.center" timestamp="1673086138982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1673009372934" />
-    <state width="2517" height="404" key="GridCell.Tab.0.left" timestamp="1673009372934">
+    <state width="2517" height="45" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138982" />
+    <state width="2517" height="45" key="GridCell.Tab.0.left" timestamp="1673086138982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1673009372934" />
-    <state width="2517" height="404" key="GridCell.Tab.0.right" timestamp="1673009372934">
+    <state width="2517" height="45" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138982" />
+    <state width="2517" height="45" key="GridCell.Tab.0.right" timestamp="1673086138982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="404" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1673009372934" />
-    <state width="2517" height="264" key="GridCell.Tab.1.bottom" timestamp="1672923196623">
+    <state width="2517" height="45" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138982" />
+    <state width="2517" height="45" key="GridCell.Tab.1.bottom" timestamp="1673086138983">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1672923196623" />
-    <state width="2517" height="264" key="GridCell.Tab.1.center" timestamp="1672923196623">
+    <state width="2517" height="45" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138983" />
+    <state width="2517" height="45" key="GridCell.Tab.1.center" timestamp="1673086138983">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1672923196623" />
-    <state width="2517" height="264" key="GridCell.Tab.1.left" timestamp="1672923196623">
+    <state width="2517" height="45" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138983" />
+    <state width="2517" height="45" key="GridCell.Tab.1.left" timestamp="1673086138982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1672923196623" />
-    <state width="2517" height="264" key="GridCell.Tab.1.right" timestamp="1672923196623">
+    <state width="2517" height="45" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138982" />
+    <state width="2517" height="45" key="GridCell.Tab.1.right" timestamp="1673086138983">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="264" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1672923196623" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1673002559577">
+    <state width="2517" height="45" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1673086138983" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1673067456053">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1673002559577" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1672836237183">
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1673067456053" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1673083984017">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1672836237183" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1673083984017" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,13 +224,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Thread.java</url>
-          <line>985</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Thread.java</url>
           <line>1307</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_1_basic/_7_hook_thread/UncaughtExceptionHandlerTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_1_basic/_7_hook_thread/UncaughtExceptionHandlerTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
