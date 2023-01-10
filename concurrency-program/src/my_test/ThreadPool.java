@@ -6,8 +6,8 @@ package my_test;
  */
 public interface ThreadPool {
     void execute(Runnable runnable);
-    void getInitSize();
-    void getMaxSize();
-    void getCoreSize();
+    int getInitSize();
+    int getMaxSize();
+    int getCoreSize();
     int getQueueSize();
 }
