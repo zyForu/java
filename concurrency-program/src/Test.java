@@ -1,14 +1,37 @@
+import java.util.concurrent.TimeUnit;
+
 public class Test {
+
+    private Object mute = new Object();
     public static void main(String[] args) {
-        Thread hello = new Thread() {
-            @Override
-            public void run() {
-                System.out.println("hello");
+        Test test = new Test();
+        new Thread( ()-> {
+            synchronized (test.mute) {
+                try {
+                    test.mute.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
-        };
-        Thread thread = new Thread(hello::run);
-        thread.start();
-
-
+        }).start();
+        new Thread( ()-> {
+            synchronized (test.mute) {
+                try {
+                    test.mute.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+        new Thread( ()-> {
+            synchronized (test.mute) {
+                try {
+                    TimeUnit.SECONDS.sleep(2);
+                    test.mute.notifyAll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 }

@@ -27,12 +27,12 @@ public class RunnableQueue implements Queue {
 
     @Override
     public void offer(Runnable runnable) {
-        synchronized (this) {
+        synchronized (runnableList) {
             if(runnableList.size() >= maxSize) {
                 denyPolicy.deny(runnable);
             }else {
                 runnableList.addLast(runnable);
-                this.notifyAll();
+                runnableList.notifyAll();
             }
 
         }
@@ -40,9 +40,9 @@ public class RunnableQueue implements Queue {
 
     @Override
     public Runnable take() throws InterruptedException {
-        synchronized (this) {
+        synchronized (runnableList) {
             while (this.runnableList.isEmpty()) {
-                this.wait();
+                runnableList.wait();
             }
             return runnableList.removeFirst();
         }

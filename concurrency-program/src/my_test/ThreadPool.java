@@ -10,4 +10,5 @@ public interface ThreadPool {
     int getMaxSize();
     int getCoreSize();
     int getQueueSize();
+    int getActiveCount();
 }
